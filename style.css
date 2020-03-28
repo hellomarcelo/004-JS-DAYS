@@ -1,0 +1,30 @@
+body {
+    font-family: 'Raleway', sans-serif !important; 
+    background-color: #ffb400 !important;
+}
+
+h1 {
+    font-size: 150px !important; 
+    text-align: center;
+    padding-top: 20%;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    h1 {font-size: 6em !important;}
+    p {font-size: 1.333em;}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    
+    h1 {font-size: 6em !important; padding-top: 2em;}
+    p {font-size: 1.333em;}
+  
+}
