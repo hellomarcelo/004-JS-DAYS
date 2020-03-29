@@ -11,7 +11,7 @@ h1 {
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-    h1 {font-size: 6em !important;}
+    h1 {font-size: 4.5em !important;}
     p {font-size: 1.333em;}
   
 }
@@ -24,7 +24,7 @@ h1 {
 @media (min-width: 320px) and (max-width: 480px) {
   
     
-    h1 {font-size: 6em !important; padding-top: 2em;}
+    h1 {font-size: 4.5em !important; padding-top: 2em;}
     p {font-size: 1.333em;}
   
 }
