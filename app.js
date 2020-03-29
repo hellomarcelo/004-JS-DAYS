@@ -3,27 +3,45 @@ let day = new Date();
 
 switch(day.getDay()) {
     case 0:
-    
+         let day = document.getElementById('day');
+        day.innerHTML = ` 
+        <h1>Domingo</h1>
+        `
     break;
 
     case 1:
-    console.log('Lunes');
+     let day = document.getElementById('day');
+        day.innerHTML = ` 
+        <h1>Lunes</h1>
+        `
     break;
 
     case 2:
-    console.log('Martes');
+     let day = document.getElementById('day');
+        day.innerHTML = ` 
+        <h1>Martes</h1>
+        `
     break;
 
     case 3:
-    console.log('Miercoles');
+    let day = document.getElementById('day');
+        day.innerHTML = ` 
+        <h1>Míercoles</h1>
+        `
     break;
 
     case 4:
-    console.log('Jueves');
+    let day = document.getElementById('day');
+        day.innerHTML = ` 
+        <h1>Jueves</h1>
+        `
     break;
 
     case 5:
-    console.log('Viernes');
+     let day = document.getElementById('day');
+        day.innerHTML = ` 
+        <h1>Viernes</h1>
+        `
     break;
 
     case 6:
@@ -31,8 +49,6 @@ switch(day.getDay()) {
         day.innerHTML = ` 
         <h1>Sábado</h1>
         `
-    
-    
     break;
 
 } 
